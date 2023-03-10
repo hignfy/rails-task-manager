@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20230310005206_create_tasks.rb
+      create    app/models/task.rb
+      invoke    test_unit
+   identical      test/models/task_test.rb
+   identical      test/fixtures/tasks.yml
